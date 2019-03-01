@@ -1,0 +1,93 @@
+/*----------------------------------
+--------------
+Button effect -  Awesome Button Effects of hover
+
+created: 03.03.2019 by Baban Sharma @ techmintra solutions
+author: Baban Sharma
+last update: 03/03/2019
+email: babanynr@gmail.com
+website: http://techmintra.com
+
+----------------------------------
+--------------*/
+
+/* import url typography */
+@import '//fonts.googleapis.com/css?family=Roboto:400,700';
+
+/* import url typography */
+@import '//fontawesome.io/icons/';
+
+body {
+	 font-family: "Roboto",sans-serif;
+}
+header.main-heading {
+	text-align: center;
+}
+header.main-heading h2 {
+	font-size: 3em;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 5px;
+	margin: 40px;
+}
+.style-container {
+	text-align: center;
+	margin: 65px;
+}
+article {
+	margin: 50px;
+}
+.article.style h4{
+	text-align: center;
+    font-size: 28px;
+}
+.line-space {
+	margin: 20px;
+}
+
+/* style 1 button effects */
+.btn-simple1 {
+	margin: 20px;
+    width: 165px;
+    height: 50px;
+    font-size: 15px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #dc2e2e;
+	color: #dc2e2e;
+	transition: all .6s ease-in-out;
+}
+
+.btn-simple1:hover {
+	background: #dc2e2e;
+	color: #fff;
+	transition: all .6s ease-in-out;
+	transform: scale(1.1);
+}
+
+/* style 2 button effects */
+.btn-simple2 {
+	margin: 20px;
+    width: 165px;
+    height: 50px;
+    font-size: 15px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #139a43;
+	color: #139a43;
+	box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transform-origin: 0 0;
+    box-shadow:0px 0px 0 100px #fff inset;
+
+}
+
+.btn-simple2:hover {
+	background: #139a43;
+	color: #fff;
+	-webkit-box-shadow:0px 0px 0 0px #fff inset;
+    -webkit-transform: scale(1);
+
+}
